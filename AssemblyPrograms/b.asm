@@ -1,0 +1,13 @@
+START 100
+READ A 
+READ B 
+MOVER   AREG, A 
+ADD AREG, B 
+MOVEM   AREG, C   
+PRINT C  
+STOP  
+A DS 10       
+B DS 1 
+C DC ‘10’ 
+D DS 1 
+END 

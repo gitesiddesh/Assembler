@@ -1,0 +1,16 @@
+START 300
+MOVER    AREG,    =’5’
+MOVER    BREG,    =’1’
+MOVER    BREG,    A
+LTORG
+MOVER    CREG,  =’2’
+MOVER    DREG,    =’1’
+MOVER    BREG,    B
+LTORG
+MOVER    BREG,  =’4’
+MOVER    DREG,    =’4’
+PRINT    A
+STOP
+A   DS  1
+B   DC  ‘3’
+END
